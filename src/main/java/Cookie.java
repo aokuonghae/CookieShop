@@ -53,5 +53,5 @@ public abstract class Cookie {
         this.bakingTemp = bakingTemp;
     }
 
-    public abstract String printRecipie();
+    public abstract String printRecipe();
 }
