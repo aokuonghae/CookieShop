@@ -15,7 +15,7 @@ public class ChocolateChipCookie extends Cookie{
 
     @Override
     public String printRecipe() {
-        String recipe = String.format("Chocolate Chip Cookie Recipe: \nFlour: %s \nButter: %s \nSugar: %s\nTexture: %s\nBaking Temperature: %s\nChocolate Chips: %s\n", this.flour, this.butter, this.sugar, this.texture, this.bakingTemp, this.chocolateChips);
+        String recipe = String.format("Chocolate Chip Cookie Recipe: \nFlour: %s\nButter: %s\nSugar: %s\nTexture: %s\nBaking Temperature: %s\nChocolate Chips: %s\n", this.flour, this.butter, this.sugar, this.texture, this.bakingTemp, this.chocolateChips);
 
         return recipe;
     }
